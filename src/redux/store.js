@@ -19,4 +19,4 @@ const exp = {
   persistor
 }
 
-export default exp;
+export default exp ;
