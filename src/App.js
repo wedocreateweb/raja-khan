@@ -37,6 +37,7 @@ class App extends React.Component {
   componentWillUnmount() {
     this.unsubscribeFromAuth();
   }
+
   render() {
     return (
       <div>
@@ -50,7 +51,7 @@ class App extends React.Component {
             path="/signin"
             render={() => 
               this.props.currentUser ? (
-                <Redirect to="/" />
+                <Redirect to="/"/>
               ) : (
                 <SignInAndSignUpPage />
               )
