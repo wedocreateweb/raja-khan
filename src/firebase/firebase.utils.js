@@ -58,26 +58,35 @@ export const convertCollectionsSnapshotToMap = (collections) => {
   );
 };
 
-export const addCollectionAndDocuments = async (
-  collectionKey,
-  objectsToAdd
-) => {
-  const collectionRef = firebase.firestore().collection(collectionKey);
-  const batch = firebase.firestore().batch();
-  objectsToAdd.forEach((obj) => {
-    const newDocRef = collectionRef.doc();
-    batch.set(newDocRef, obj);
-  });
-  return await batch.commit();
-};
+// export const addCollectionAndDocuments = async (
+//   collectionKey,
+//   objectsToAdd
+// ) => {
+//   const collectionRef = firebase.firestore().collection(collectionKey);
+//   const batch = firebase.firestore().batch();
+//   objectsToAdd.forEach((obj) => {
+//     const newDocRef = collectionRef.doc();
+//     batch.set(newDocRef, obj);
+//   });
+//   return await batch.commit();
+// };
 
 firebase.initializeApp(config);
 
+
+export const getCurrentUser = () => {
+  return new Promise((resolve, reject) => {
+    const unsubscribe = auth.onAuthStateChanged((userAuth) => {
+      unsubscribe();
+      resolve(userAuth);
+    }, reject);
+  });
+};
 export const auth = firebase.auth();
 
-const provider = new firebase.auth.GoogleAuthProvider();
-provider.setCustomParameters({ prompt: "select_account" });
+export const googleProvider = new firebase.auth.GoogleAuthProvider();
+googleProvider.setCustomParameters({ prompt: "select_account" });
 
-export const signInWithGoogle = () => auth.signInWithPopup(provider);
+export const signInWithGoogle = () => auth.signInWithPopup(googleProvider);
 
 export default firebase;

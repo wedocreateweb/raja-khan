@@ -1,0 +1,782 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "e:\\crwn-clothing\\fresh\\new",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-10-17 18:52:22",
+            "filesum": 113,
+            "codesum": 7852,
+            "commentsum": 331,
+            "blanksum": 333,
+            "statistics": {
+                "": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".md": {
+                    "code": 21,
+                    "comment": 4,
+                    "blank": 15
+                },
+                ".ts": {
+                    "code": 7,
+                    "comment": 2,
+                    "blank": 1
+                },
+                ".html": {
+                    "code": 24,
+                    "comment": 24,
+                    "blank": 0
+                },
+                ".json": {
+                    "code": 5940,
+                    "comment": 0,
+                    "blank": 5
+                },
+                ".txt": {
+                    "code": 6,
+                    "comment": 282,
+                    "blank": 21
+                },
+                ".js": {
+                    "code": 402,
+                    "comment": 7,
+                    "blank": 73
+                },
+                ".map": {
+                    "code": 2,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".css": {
+                    "code": 30,
+                    "comment": 1,
+                    "blank": 4
+                },
+                ".svg": {
+                    "code": 119,
+                    "comment": 2,
+                    "blank": 2
+                },
+                ".jsx": {
+                    "code": 784,
+                    "comment": 4,
+                    "blank": 143
+                },
+                ".scss": {
+                    "code": 460,
+                    "comment": 3,
+                    "blank": 67
+                },
+                ".cache": {
+                    "code": 16,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".yml": {
+                    "code": 35,
+                    "comment": 2,
+                    "blank": 2
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": ".firebase\\hosting.YnVpbGQ.cache"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": ".firebaserc"
+                },
+                {
+                    "blank": 1,
+                    "code": 19,
+                    "comment": 1,
+                    "filename": ".github\\workflows\\firebase-hosting-merge.yml"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 1,
+                    "filename": ".github\\workflows\\firebase-hosting-pull-request.yml"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "build\\asset-manifest.json"
+                },
+                {
+                    "filename": "build\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\index.html"
+                },
+                {
+                    "filename": "build\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "build\\manifest.json"
+                },
+                {
+                    "filename": "build\\OpenSans-CondLight.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "build\\robots.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "build\\static\\css\\main.ef7fbc61.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\css\\main.ef7fbc61.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "build\\static\\js\\main.6b836dbf.js"
+                },
+                {
+                    "blank": 21,
+                    "code": 0,
+                    "comment": 280,
+                    "filename": "build\\static\\js\\main.6b836dbf.js.LICENSE.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\js\\main.6b836dbf.js.map"
+                },
+                {
+                    "blank": 1,
+                    "code": 17,
+                    "comment": 1,
+                    "filename": "build\\static\\media\\crown.12eb529ccde96b6b4cd3bdb62541af78.svg"
+                },
+                {
+                    "filename": "build\\static\\media\\Nunito-Regular.bedc35fb703c0b2d1fd5.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "build\\static\\media\\shopping-bag.a688874f6f1507316bdfa420328a4a53.svg"
+                },
+                {
+                    "blank": 1,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "firebase.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 24,
+                    "filename": "index.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 5796,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "filename": "public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "public\\manifest.json"
+                },
+                {
+                    "filename": "public\\OpenSans-CondLight.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "public\\robots.txt"
+                },
+                {
+                    "blank": 15,
+                    "code": 21,
+                    "comment": 4,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "src\\App.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "src\\App.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\App.test.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 17,
+                    "comment": 1,
+                    "filename": "src\\assets\\crown.svg"
+                },
+                {
+                    "filename": "src\\assets\\fonts\\Nunito-Regular.ttf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "src\\assets\\shopping-bag.svg"
+                },
+                {
+                    "blank": 4,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "src\\components\\cart-dropdown\\cart-dropdown.component.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "src\\components\\cart-dropdown\\cart-dropdown.styles.scss"
+                },
+                {
+                    "blank": 8,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "src\\components\\cart-icon\\cart-icon.component.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "src\\components\\cart-icon\\cart-icon.styles.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src\\components\\cart-item\\cart-item.component.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "src\\components\\cart-item\\cart-item.styles.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "src\\components\\checkout-item\\checkout-item.component.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "src\\components\\checkout-item\\checkout-item.styles.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "src\\components\\collection-item\\collection-item.component.jsx"
+                },
+                {
+                    "blank": 7,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "src\\components\\collection-item\\collection-item.styles.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src\\components\\collection-preview\\collection-preview.component.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 2,
+                    "filename": "src\\components\\collection-preview\\collection-preview.styles.scss"
+                },
+                {
+                    "blank": 8,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "src\\components\\collections-overview\\collections-overview.component.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src\\components\\collections-overview\\collections-overview.container.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src\\components\\collections-overview\\collections-overview.styles.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "src\\components\\custom-button\\custom-button.component.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 40,
+                    "comment": 1,
+                    "filename": "src\\components\\custom-button\\custom-button.styles.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "src\\components\\directory\\directory.component.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\components\\directory\\directory.styles.scss"
+                },
+                {
+                    "filename": "src\\components\\directory\\hats.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\directory\\jackets.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\directory\\men.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\directory\\sneakers.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\directory\\womens.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "src\\components\\form-input\\form-input.component.jsx"
+                },
+                {
+                    "blank": 8,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "src\\components\\form-input\\form-input.styles.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "src\\components\\header\\header.component.jsx"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "src\\components\\header\\header.styles.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "src\\components\\header\\header.styles.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src\\components\\menu-item\\menu-item-component.jsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 58,
+                    "comment": 0,
+                    "filename": "src\\components\\menu-item\\menu-item.styles.scss"
+                },
+                {
+                    "blank": 15,
+                    "code": 90,
+                    "comment": 0,
+                    "filename": "src\\components\\sign-up\\sign-up.component.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "src\\components\\sign-up\\sign-up.styles.scss"
+                },
+                {
+                    "blank": 9,
+                    "code": 66,
+                    "comment": 0,
+                    "filename": "src\\components\\sing-in\\sign-in.component.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\components\\sing-in\\sign-in.styles.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "src\\components\\stripe-button\\stripe-button.component.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src\\components\\with-spinner\\with-spinner.component.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "src\\components\\with-spinner\\with-spinner.styles.jsx"
+                },
+                {
+                    "blank": 14,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "src\\firebase\\firebase.utils.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\index.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 3,
+                    "filename": "src\\index.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\logo.svg"
+                },
+                {
+                    "blank": 9,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "src\\pages\\checkout\\checkout.component.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "src\\pages\\checkout\\checkout.styles.scss"
+                },
+                {
+                    "blank": 5,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "src\\pages\\collection\\collection.component.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\pages\\collection\\collection.container.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src\\pages\\collection\\collection.styles.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\pages\\homepage\\homepage.component.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src\\pages\\homepage\\homepage.styles.jsx"
+                },
+                {
+                    "blank": 7,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "src\\pages\\homepage\\homepage.styles.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 32,
+                    "comment": 1,
+                    "filename": "src\\pages\\shop\\shop.component.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src\\pages\\sign-in-and-sign-up\\sign-in-and-sign-up.component.jsx"
+                },
+                {
+                    "blank": 4,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\pages\\sign-in-and-sign-up\\sign-in-and-sign-up.styles.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src\\pages\\sign-in-and-sign-up\\sign-in-and-sign-up.styles.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src\\redux\\cart\\cart.actions.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "src\\redux\\cart\\cart.reducer.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "src\\redux\\cart\\cart.selectors.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\redux\\cart\\cart.types.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "src\\redux\\cart\\cart.utils.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "src\\redux\\directory\\directory.reducer.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src\\redux\\directory\\directory.selectors.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "src\\redux\\root-reducer.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "src\\redux\\shop\\shop.action.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "src\\redux\\shop\\shop.reducer.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "src\\redux\\shop\\shop.selectors.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src\\redux\\shop\\shop.types.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src\\redux\\store.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src\\redux\\user\\user.actions.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src\\redux\\user\\user.reducer.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src\\redux\\user\\user.selector.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src\\redux\\user\\user.types.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\reportWebVitals.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "src\\setupTests.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 1,
+                    "filename": "src\\vite-env.d.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 1,
+                    "filename": "vite.config.ts"
+                }
+            ]
+        }
+    ]
+}
