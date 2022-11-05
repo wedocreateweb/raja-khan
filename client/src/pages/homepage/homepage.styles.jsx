@@ -9,4 +9,7 @@ export const HomePageContainer = styled.div`
   padding: 20px 80px;
   height: 60vh;
   animation: 1s ${bounceAnimation};
+  @media screen and (max-width: 800px) {
+    padding: 10px
+  }
 `;

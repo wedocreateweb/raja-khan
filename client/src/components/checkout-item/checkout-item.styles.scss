@@ -1,4 +1,12 @@
 .checkout-item {
+  @media screen and (max-width: 800px) {
+    margin: 0px 0px 0px 11px;
+    // width: 100%;
+    justify-content: space-between;
+    display: flex;
+    // padding: 15px 0;
+    align-items: center;
+  }
   width: 100%;
   display: flex;
   min-height: 100px;
@@ -8,6 +16,9 @@
   align-items: center;
 
   .image-container {
+    @media screen and (max-width: 800px) {
+      width: 23%;
+    }
     width: 23%;
     padding-right: 15px;
 
@@ -16,9 +27,25 @@
       height: 100%;
     }
   }
-  .name,
-  .quantity,
+  .name {
+    @media screen and (max-width: 800px) {
+      margin-left: -66px;
+      width: 0%;
+    }
+    width: 23%;
+  }
+  .quantity {
+    @media screen and (max-width: 800px) {
+      margin-right: 0px;
+      width: 0%;
+    }
+    width: 23%;
+  }
   .price {
+    @media screen and (max-width: 800px) {
+      margin-left: 0px;
+      width: 0%;
+    }
     width: 23%;
   }
 
@@ -29,11 +56,19 @@
     }
 
     .value {
+      @media screen and (max-width: 800px) {
+        margin: 0 1px;
+        
+      }
       margin: 0 10px;
     }
   }
 
   .remove-button {
+    
+    @media screen and (max-width: 800px) {
+      margin-left: 0px;
+    }
     padding-left: 12px;
     cursor: pointer;
   }
